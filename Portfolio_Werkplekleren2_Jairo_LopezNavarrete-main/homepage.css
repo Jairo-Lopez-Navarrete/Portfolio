@@ -274,6 +274,10 @@ footer p {
         width: 820px;
     }
 
+    #icon{
+        z-index: 20
+    }
+
     nav ul li {
         margin: 4rem 4rem 0 0;
         height: 20rem;
@@ -319,6 +323,10 @@ footer p {
 @media screen and (max-width: 417px) {
     body {
         width: 414px;
+    }
+
+    #icon{
+        z-index: 20
     }
 
     #front {

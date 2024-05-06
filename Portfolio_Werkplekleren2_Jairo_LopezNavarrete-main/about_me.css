@@ -183,6 +183,10 @@ img {
         height: 180px;
     }
 
+    #tilt{
+        width: 1500px;
+    }
+
     img {
         flex-basis: 60%;
     }
@@ -221,6 +225,12 @@ img {
     body {
         width: 414px;
         margin: 1rem;
+    }
+
+    #tilt{
+        margin: 1rem 1rem 1rem 0;
+        width: 200px;
+        height: 200px;
     }
 
     img {

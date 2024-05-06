@@ -72,6 +72,22 @@ body {
     transition: all .15s ease-in-out;
 }
 
+.name_text{
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(7), cursor .4s step-end infinite alternate;
+    width: 16%;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent}
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+
 /*
 #fixed{
     position: fixed;
@@ -276,6 +292,10 @@ footer p {
 
     #icon{
         z-index: 20
+    }
+
+    .name_text{
+        width: 18%;
     }
 
     nav ul li {

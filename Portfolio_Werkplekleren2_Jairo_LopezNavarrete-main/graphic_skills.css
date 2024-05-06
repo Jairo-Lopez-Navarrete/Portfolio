@@ -122,7 +122,13 @@ header .head h1 {
     max-height: 100%;
     object-fit: contain;
     border-radius: 0.5rem;
-    box-shadow: var(--fifth-color) 0 0.5rem 0.5rem;
+    /*box-shadow: var(--fifth-color) 0 0.5rem 0.5rem;*/
+    filter: grayscale(100%);
+    transition: linear 0.25s;
+}
+
+.images:hover{
+    filter: grayscale(0%);
 }
 
 .item1 {

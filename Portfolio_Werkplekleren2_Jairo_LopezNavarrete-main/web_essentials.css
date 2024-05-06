@@ -107,11 +107,17 @@ main .images {
 }
 
 main .images img {
-    box-shadow: var(--fifth-color) 0 1rem 1rem;
+    /*box-shadow: var(--fifth-color) 0 1rem 1rem;*/
     border-radius: 1rem;
     height: auto;
     width: 50rem;
     margin: 5rem;
+    filter: grayscale(100%);
+    transition: linear 0.25s;
+}
+
+main .images img:hover{
+    filter: grayscale(0%);
 }
 
 @media screen and (max-width: 825px) and (min-width: 418px) {

@@ -108,11 +108,18 @@ main .images {
 }
 
 main .images img {
-    box-shadow: var(--fifth-color) 0 1rem 1rem;
+    /*box-shadow: var(--fifth-color) 0 1rem 1rem;*/
     height: 65rem;
     width: auto;
     margin: 5rem;
     border-radius: 4rem;
+    filter: grayscale(100%);
+    transition: linear 0.25s;
+
+}
+
+main .images img:hover{
+    filter: grayscale(0%);
 }
 
 @media screen and (max-width: 825px) and (min-width: 417px) {

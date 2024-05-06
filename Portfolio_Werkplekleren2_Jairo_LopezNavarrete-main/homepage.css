@@ -232,18 +232,21 @@ main {
 }
 
 .rounded-image {
-    box-shadow: var(--fifth-color) 0 0.5rem 1rem;
+    /*box-shadow: var(--fifth-color) 0 0.5rem 1rem;*/
     height: 35rem;
     width: auto;
     margin: 1rem;
     border-radius: 4rem;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
+    filter: grayscale(100%);
+
 }
 
 .rounded-image:hover {
     height: 37rem;
     width: auto;
     border: solid 6px var(--secondary-color);
+    filter: grayscale(0%);
 }
 
 a {

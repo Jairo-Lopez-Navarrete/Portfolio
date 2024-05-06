@@ -64,7 +64,7 @@ i:hover {
     right: 3rem;
     font-size: 2rem;
     cursor: pointer;
-    box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;
+    /*box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;*/
 }
 
 #icon:hover{

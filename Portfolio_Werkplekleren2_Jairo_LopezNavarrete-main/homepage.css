@@ -41,7 +41,7 @@ body {
     left: 3rem;
     font-size: 2rem;
     cursor: pointer;
-    box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;
+    /*box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;*/
     transition: background 0.2s linear;
 }
 

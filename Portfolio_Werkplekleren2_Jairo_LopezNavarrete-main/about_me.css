@@ -42,13 +42,44 @@ body {
     right: 3rem;
     font-size: 2rem;
     cursor: pointer;
-    box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;
+    /*box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;*/
 }
 
 #icon:hover{
     transition: background 0.2s linear;
     background-color: var(--fourth-color);
 }
+
+
+
+
+
+/* Styles for the tilt block */
+#tilt {
+    border-radius: 2rem;
+    margin-left: 3rem;
+    display: block;
+    height: 450px;
+    width: 800px;
+    background-color: #fff;
+    transition: box-shadow 0.1s, transform 0.1s, filter 2.5s;
+
+    /*
+      * Adding image to the background
+      * No relation to the hover effect.
+      */
+    background-image: url("assets/me.jpeg");
+    background-position: center;
+    filter: grayscale(100%);
+    background-size: cover
+}
+
+#tilt:hover {
+    box-shadow: 0 0 30px var(--third-color);
+    cursor: pointer;
+    filter:grayscale(0%);
+}
+
 
 
 i {
@@ -223,37 +254,4 @@ img {
     #flex-container2 {
         margin: 5rem 0 0 0;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-/* Styles for the tilt block */
-#tilt {
-    border-radius: 2rem;
-    margin-left: 3rem;
-    display: block;
-    height: 400px;
-    width: 1000px;
-    background-color: #fff;
-    transition: box-shadow 0.1s, transform 0.1s;
-
-    /*
-      * Adding image to the background
-      * No relation to the hover effect.
-      */
-    background-image: url("assets/me.jpeg");
-    background-size: cover
-}
-
-#tilt:hover {
-    box-shadow: 0 0 30px var(--third-color);
-    cursor: pointer;
 }

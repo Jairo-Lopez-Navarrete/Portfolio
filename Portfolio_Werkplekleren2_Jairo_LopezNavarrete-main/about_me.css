@@ -62,7 +62,7 @@ body {
     height: 450px;
     width: 800px;
     background-color: #fff;
-    transition: box-shadow 0.1s, transform 0.1s, filter 2.5s;
+    transition: box-shadow 0.1s, transform 0.1s, filter .5s;
 
     /*
       * Adding image to the background

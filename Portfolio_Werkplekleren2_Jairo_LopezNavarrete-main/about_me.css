@@ -51,6 +51,26 @@ body {
 }
 
 
+.hiddenText{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+}
+
+.otherside{
+    transform: translateX(100%);
+}
+
+.oneside{
+    transform: translateX(-100%);
+}
+
+.showText{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 
 

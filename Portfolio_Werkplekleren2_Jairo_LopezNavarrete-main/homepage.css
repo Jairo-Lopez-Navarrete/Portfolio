@@ -80,6 +80,39 @@ body {
     width: 16%;
 }
 
+
+header{
+    position: relative;
+}
+
+.decoration{
+    z-index: -5;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(61, 61, 61, 0.42);
+    position: absolute;
+}
+
+.deco-one{
+    border-radius: 2rem 2rem 0.5rem 0.5rem;
+    background: linear-gradient(to top,
+    rgba(155, 155, 155, 0.05),
+    rgb(65, 65, 65)
+    );
+    right: 5rem;
+    top: -8.5rem;
+}
+
+.deco-two{
+    border-radius: 0.5rem 0.5rem 2rem 2rem;
+    background: linear-gradient(to bottom,
+    rgba(155, 155, 155, 0.05),
+    rgb(65, 65, 65)
+    );
+    left: 5rem;
+    top: 0.5rem;
+}
+
 @keyframes cursor{
     50% { border-color: transparent}
 }
@@ -315,6 +348,10 @@ footer p {
         transition: inherit;
     }
 
+    .decoration{
+        display: none;
+    }
+
     .rounded-image:hover {
         height: 25rem;
         width: auto;
@@ -395,6 +432,9 @@ footer p {
         color: var(--third-color);
     }
 
+    .decoration{
+        display: none;
+    }
 
     a {
         margin: 0;

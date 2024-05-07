@@ -17,9 +17,24 @@ icon.addEventListener("click", function() {
     localStorage.setItem("darkMode", isDarkModeEnabled);
 });
 
+//bewegende text
 
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add('showText')
+        }
+        else{
+            entry.target.classList.remove('showText');
+        }
+    });
+});
 
+const hiddenElements = document.querySelectorAll('.hiddenText');
+hiddenElements.forEach((element) => observer.observe(element));
 
+//bewegende text
 
 
 /* Store the element in el */

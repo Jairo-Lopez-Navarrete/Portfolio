@@ -16,3 +16,23 @@ icon.addEventListener("click", function() {
     const isDarkModeEnabled = document.body.classList.contains("dark-theme");
     localStorage.setItem("darkMode", isDarkModeEnabled);
 });
+
+
+
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add('showText')
+        }
+        else{
+            entry.target.classList.remove('showText');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hiddenText');
+hiddenElements.forEach((element) => observer.observe(element));
+
+//bewegende text

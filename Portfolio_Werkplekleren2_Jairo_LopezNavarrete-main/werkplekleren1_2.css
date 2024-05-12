@@ -89,7 +89,7 @@ header .head {
 }
 
 header .head h1 {
-    color: var(--secondary-color);
+    color: var(--fourth-color);
     font-weight: 700;
     font-size: 5rem;
 }

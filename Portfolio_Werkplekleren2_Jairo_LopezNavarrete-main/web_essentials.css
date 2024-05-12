@@ -1,52 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 body {
-    background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     transition: background 0.2s linear;
 }
 
-i {
-    font-size: 2rem;
-    margin: 1rem;
-    padding: 1rem;
-    color: var(--third-color);
-    background-color: var(--secondary-color);
-    transition: 0.3s;
-}
-
-i:hover {
-    background-color: var(--secondary-color);
-}
-
-:root{
+:root {
     /* light-mode */
+    --background-image: url('assets/blue-blue-sky.png');
+    --background-image-icon: url('assets/dune_desert.jpg');
+    --moon-icon: #fff;
     --primary-color: #E8E9F3;
-    --secondary-color: #00CC99;
+    --secondary-color: #ffdcbb;
     --third-color: #000;
-    --fourth-color: #0aa674;
+    --fourth-color: #6b82ce;
     --fifth-color: rgba(58, 58, 58, 0.16);
 }
 
-.dark-theme{
+.dark-theme {
     /* dark-mode */
+    --background-image: url('assets/night_sky.jpeg');
     --primary-color: #1a1a1a;
+    --moon-icon: #1a1a1a;
     /*golden effect*/
     /*color: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);*/
     --secondary-color: #9905e7;
     --third-color: #ffffff;
-    --fourth-color: #a736e8;
+    --fourth-color: #ac6ef5;
     --fifth-color: rgba(232, 232, 232, 0.8);
 }
 
 #icon{
-    border-radius: 1.5rem;
+    border-radius: 5%;
     padding: 1rem;
-    color: var(--primary-color);
+    color: var(--moon-icon);
     background-color: var(--secondary-color);
     position: fixed;
     top: 1.5rem;
@@ -54,8 +51,8 @@ i:hover {
     font-size: 2rem;
     cursor: pointer;
     /*box-shadow: var(--fifth-color) 0 0.3rem 0.5rem;*/
-    transition: background 0.25s linear;
 }
+
 
 #icon:hover{
     background-color: var(--fourth-color);
@@ -67,7 +64,7 @@ i {
     margin: 3rem 1rem 1rem 3rem;
     padding: 1rem;
     color: var(--primary-color);
-    border-radius: 1.5rem;
+    border-radius: 5%;
     background-color: var(--secondary-color);
     transition: background 0.2s linear;
 }
@@ -94,8 +91,6 @@ header .box h1 {
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 5rem;
-    font-family: 'Merriweather', sans-serif;
-    font-style: italic;
 }
 
 

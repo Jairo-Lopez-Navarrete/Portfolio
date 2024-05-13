@@ -124,6 +124,10 @@ main .images img:hover{
         justify-content: center;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     header .box {
         display: flex;
         align-items: center;
@@ -133,11 +137,9 @@ main .images img:hover{
     }
 
     header .box h1 {
-        color: #00CC99;
+        color: var(--secondary-color);
         font-weight: 700;
         font-size: 3rem;
-        font-family: 'Merriweather', sans-serif;
-        font-style: italic;
     }
 
 
@@ -162,7 +164,10 @@ main .images img:hover{
         padding: 1rem;
         color: #fff;
         border-radius: 1.5rem;
-        background-color: #00cc99;
+    }
+
+    #icon{
+        z-index: 400;
     }
 
 
@@ -181,11 +186,9 @@ main .images img:hover{
     }
 
     header .box h1 {
-        color: #00CC99;
+        color: var(--secondary-color);
         font-weight: 700;
         font-size: 2rem;
-        font-family: 'Merriweather', sans-serif;
-        font-style: italic;
     }
 
 

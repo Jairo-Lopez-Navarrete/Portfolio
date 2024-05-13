@@ -219,6 +219,10 @@ img {
         height: 180px;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     #tilt{
         width: 1500px;
     }
@@ -261,6 +265,10 @@ img {
     body {
         width: 414px;
         margin: 1rem;
+    }
+
+    #icon{
+        z-index: 400;
     }
 
     #tilt{

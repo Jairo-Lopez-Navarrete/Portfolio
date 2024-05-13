@@ -309,12 +309,13 @@ footer p {
         width: 820px;
     }
 
+
     #icon{
-        z-index: 20
+        z-index: 400;
     }
 
     .name_text{
-        width: 18%;
+        width: 23%;
     }
 
     nav ul li {
@@ -355,8 +356,6 @@ footer p {
         justify-content: center;
         width: 200rem;
         height: 0;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
         font-size: 3rem;
         color: var(--third-color);
     }
@@ -369,7 +368,7 @@ footer p {
     }
 
     #icon{
-        z-index: 20
+        z-index: 400;
     }
 
     #front {
@@ -407,13 +406,12 @@ footer p {
     }
 
     #front header h1 {
+        margin-left: 25%;
         display: flex;
         align-items: unset;
         justify-content: center;
         width: 200rem;
         height: 0;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: lighter;
         font-size: 2rem;
         color: var(--third-color);
     }
@@ -449,6 +447,10 @@ footer p {
     }
 
     footer {
+        display: none;
+    }
+
+    .name_text{
         display: none;
     }
 }

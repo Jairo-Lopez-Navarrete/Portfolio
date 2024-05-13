@@ -121,6 +121,10 @@ main .images img:hover{
         margin: 0.1rem;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     .images img {
         height: 20rem;
         width: 100%;
@@ -155,6 +159,10 @@ main .images img:hover{
         width: 414px;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     main {
         display: flex;
         justify-content: center;
@@ -174,8 +182,6 @@ main .images img:hover{
         color: var(--secondary-color);
         font-weight: 700;
         font-size: 3rem;
-        font-family: 'Merriweather', sans-serif;
-        font-style: italic;
     }
 
 

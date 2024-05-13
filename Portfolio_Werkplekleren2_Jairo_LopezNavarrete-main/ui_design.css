@@ -161,6 +161,10 @@ header .head h1 {
         width: 820px;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     header .head {
         width: 820px;
         height: 680px;
@@ -185,12 +189,14 @@ header .head h1 {
         height: 500px;
     }
 
+    #icon{
+        z-index: 400;
+    }
+
     header .head h1 {
-        color: #00CC99;
+        color: var(--secondary-color);
         font-weight: 700;
         font-size: 3rem;
-        font-family: 'Merriweather', sans-serif;
-        font-style: italic;
     }
 
 

@@ -194,12 +194,20 @@ header .head h1 {
         display: grid;
         width: 800px;
     }
+
+    #icon{
+        z-index: 400;
+    }
 }
 
 @media screen and (max-width: 417px) {
     body {
         padding: 0.5rem;
         width: 414px;
+    }
+
+    #icon{
+        z-index: 400;
     }
 
     header .head {
@@ -212,8 +220,6 @@ header .head h1 {
         font-weight: 700;
         font-size: 3rem;
         justify-content: center;
-        font-family: 'Merriweather', sans-serif;
-        font-style: italic;
     }
 
     .container {

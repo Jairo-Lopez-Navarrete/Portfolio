@@ -30,7 +30,7 @@ body {
 
 .dark-theme {
     /* dark-mode */
-    --myself-image: url('assets/me.jpeg');
+    --myself-image: url('assets/me_better.jpg');
     --background-image: url('assets/night_sky.jpeg');
     --primary-color: #1a1a1a;
     --moon-icon: #1a1a1a;
